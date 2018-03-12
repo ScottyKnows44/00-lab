@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+Whenever you have an variable, object, or array that stays the same you can use const which allows you to declare varibles an access them in a scope where 'var' wouldn't be able to be declared. You need to make sure though that you don't change the array itself. this is why you don't use is in the for loops in the app.js page. This is because earlier in the code we declare arrays and then change them which messes everything up.  
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+Once I figured out how to turn concatenations to template literal notations it was really simple, and I will always use them from now on.
